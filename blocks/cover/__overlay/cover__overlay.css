@@ -1,0 +1,13 @@
+.cover__overlay {
+ background: #2A2C2F;
+
+ width: 100%;
+ grid-column: 1;
+ grid-row: 1/3;
+
+ opacity: 0.3;
+ transition: 0.5s ease;
+}
+.cover__overlay:hover {
+ opacity: 0.8;
+}
