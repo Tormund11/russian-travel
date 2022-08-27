@@ -28,7 +28,13 @@
  column-gap: 28px;
  }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 447px) {/*добавил чтобы убрать скролл*/
+  .place {
+  display: block;
+  margin: 0;
+  }
+ }
+ @media screen and (max-width: 320px) {
  .place {
  grid-template-columns: auto;
  row-gap: 32px;

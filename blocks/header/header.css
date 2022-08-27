@@ -1,6 +1,5 @@
 .header{
  display: flex;
- flex-direction: row;
  justify-content: space-between;
  padding: 28px 48px 0 48px;
  align-items: flex-end;
