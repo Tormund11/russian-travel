@@ -8,9 +8,7 @@
  line-height: 58px;
  color: #FFFFFF;
  letter-spacing: 0em;
- text-align: left;
- width: 100%; 
- text-align: center;
+ width: 100%;
 }
 @media screen and (max-width: 320px) {
  .intro__title {
