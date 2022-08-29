@@ -1,4 +1,4 @@
-.cover__overlay_title{
+.cover__overlay-title{
  text-decoration: none;
  max-width: 560px;
  font-family: 'Inter', sans-serif;
@@ -15,23 +15,23 @@
  opacity: 1;
 }
 @media screen and (max-width: 1024px) {
- .cover__overlay_title {
+ .cover__overlay-title {
  margin-top: 195px;
  }
 }
 @media screen and (max-width: 768px) {
- .cover__overlay_title {
+ .cover__overlay-title {
  margin-top: 115px;
  }
 }
 @media screen and (max-width: 550px) {
- .cover__overlay_title {
+ .cover__overlay-title {
  font-size: 32px;
  line-height: 35px;
  }
 }
 @media screen and (max-width: 320px) {
- .cover__overlay_title {
+ .cover__overlay-title {
  margin-top: 33px;
  }
 }
