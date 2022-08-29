@@ -1,0 +1,37 @@
+.cover__overlay_title{
+ text-decoration: none;
+ max-width: 560px;
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-weight: 900;
+ font-size: 72px;
+ line-height: 76px;
+ text-align: center;
+ margin: 245px auto 0 auto;
+ padding: 0;
+ color: #FFFFFF;
+ align-self: center;
+ z-index: 2;
+ opacity: 1;
+}
+@media screen and (max-width: 1024px) {
+ .cover__overlay_title {
+ margin-top: 195px;
+ }
+}
+@media screen and (max-width: 768px) {
+ .cover__overlay_title {
+ margin-top: 115px;
+ }
+}
+@media screen and (max-width: 550px) {
+ .cover__overlay_title {
+ font-size: 32px;
+ line-height: 35px;
+ }
+}
+@media screen and (max-width: 320px) {
+ .cover__overlay_title {
+ margin-top: 33px;
+ }
+}

@@ -1,0 +1,36 @@
+.cover__overlay_subtitle{
+ text-decoration: none;
+ max-width: 360px;
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 22px;
+ text-align: center;
+ margin: 32px auto 245px auto;
+ padding: 0;
+ color: #FFFFFF;
+ align-self: center;
+ z-index: 2;
+}
+@media screen and (max-width: 1024px) {
+ .cover__overlay_subtitle {
+ margin-bottom: 195px;
+ }}
+ @media screen and (max-width: 768px) {
+ .cover__overlay_subtitle {
+ margin-bottom: 115px;
+}
+}
+@media screen and (max-width: 550px) {
+ .cover__overlay_subtitle {
+ font-size: 14px;
+ line-height: 16px;
+ margin-top: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+ .cover__overlay_subtitle {
+ margin: 16px auto 33px auto;
+ }
+}

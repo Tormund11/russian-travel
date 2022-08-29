@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>RUSSIAN-TRAVEL</title>
+  <title>Путешествия по России</title>
 </head>
 <body class="body">
     <div class="page">
         <header class="header">
-            <img class="header__logo" src="./images/logo/__logo.png" alt="Россия">
+            <img class="header__logo" src="./images/header-logo.svg" alt="Россия">
             <ul class="header__lang">
-                <li class="header__lang-link header__lang-link_selected">Ru</li>
-                <li class="header__lang-link">En</li>
+                <li class="header__lang-item"><a class="header__lang-link header__lang-link_selected" href="#">Ru</a></li>
+                <li class="header__lang-item"><a class="header__lang-link" href="#">En</a></li>
             </ul>
         </header>
         <main class="content">
@@ -21,20 +21,22 @@
 
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
-                <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-                <img class="lead__image" src="./images/lead__image.png" alt="фото плацкартного места"/>
-                <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
+                <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+                <figure class="lead__figure">
+                   <img class="lead__figure_image" src="./images/lead__image.png" alt="фото плацкартного места"/>
+                   <figcaption class="lead__figure_caption">ваша полка - верхняя</figcaption>
+                </figure>
             </section>
 
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li>Часовых поясов 11</li>
-                    <li>Объектов природного наследия ЮНЕСКО 12</li>
-                    <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li>Природных заповедников 105</li>
-                    <li>Аэропортов 241</li>
+                    <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+                    <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                    <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                    <li><span class="intro__span-accent">Природных заповедников</span> 105</li>
+                    <li><span class="intro__span-accent">Аэропортов</span> 241</li>
                 </ul>
             </section>
 
@@ -134,25 +136,24 @@
                 </article>
             </section>
 
-            <section class="cover">
-                <div class="cover__background"></div>
-                <a  class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"></a>
-                <h3 class="cover__title">До Байкала «на собаках»</h3>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-                
+            <section class="cover">                
+             <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+                 <h3 class="cover__overlay_title">До Байкала «на&nbsp;собаках»</h3>
+                 <p class="cover__overlay_subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+             </a>
             </section>
 
         </main>
 
         <footer class="footer">
-            <div class="footer__links">
-             <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-             <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-             <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-             <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-             <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-            </div>
-            <div class="footer__copyright">© 2022. Тормунд</div>
+            <nav class="footer__block">
+                <div class="footer__block-item"><a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a></div>
+                <div class="footer__block-item"><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a></div>
+                <div class="footer__block-item"><a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a></div>
+                <div class="footer__block-item"><a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a></div>
+                <div class="footer__block-item"><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></div>
+            </nav>
+            <p class="footer__copyright">© 2022. Тормунд</p>
         </footer>
     </div>
 </body>

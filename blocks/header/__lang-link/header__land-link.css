@@ -6,8 +6,9 @@
  line-height: 28px;
  display: inline;
  list-style: none;
- margin-left: 18px;
  list-style-type: none;
+ text-decoration: none;
+ margin-right: 18px;
 }
 .header__lang-link:hover{
  opacity: 0.7;

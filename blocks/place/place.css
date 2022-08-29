@@ -22,12 +22,6 @@
   padding-top: 73px;
   }
 }
-@media screen and (max-width: 700px) {
- .place {
- grid-template-columns: auto auto;
- column-gap: 28px;
- }
-}
 @media screen and (max-width: 450px) {/*добавил чтобы убрать скролл*/
   .place {
   display: block;
