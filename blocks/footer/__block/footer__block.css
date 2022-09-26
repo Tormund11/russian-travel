@@ -1,11 +1,4 @@
 .footer__block {
-    display: flex;
-    list-style-type: none;
     padding: 0;
     margin: 0;
-}
-@media screen and (max-width: 680px) {
-    .footer__block{
-        flex-direction: column;
-    }
 }

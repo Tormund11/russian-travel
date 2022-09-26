@@ -1,17 +1,27 @@
-.gallery__item{ 
- width: 284px;
- height: 213px;
- margin: 0;
+.gallery__item {
+    max-width: 284px;
+    height: 213px;
+    margin: 0;
+    padding: 0;
 }
+
 @media screen and (max-width: 1024px) {
- .photo-grid__item {
- width: 300px;
- height: 225px;
+    .gallery__item {
+        max-width: 300px;
+        height: 225px;
+    }
 }
-}
+
 @media screen and (max-width: 768px) {
- .photo-grid__item {
- width: 100%;
- height: auto;
-}
-}
+    .gallery__item {
+        max-width: 352px;
+        width: 100%;
+        height: auto;
+    }
+}/*
+@media screen and (max-width: 320px) {
+    .gallery__item {
+        width: 288px;
+        height: 216px;
+    }
+}*/
