@@ -10,6 +10,10 @@
   text-decoration: none;
   transition: 0.5s ease;
 }
+.footer__link:last-child {
+  margin-right: 0;
+}
+
 
 .footer__link:hover {
   opacity: 0.8;

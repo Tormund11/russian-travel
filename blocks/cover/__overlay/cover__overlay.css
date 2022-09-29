@@ -12,12 +12,14 @@
     z-index: 0;
     padding: 0;
 }
+
 @media screen and (max-width: 1024px) {
     .cover__overlay {
         /*padding: 92px 0 0 0;*/
         height: 100%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .cover__overlay {
         /*padding: 90px 0 0 0;*/
@@ -27,12 +29,12 @@
 
 @media screen and (max-width: 320px) {
     .cover__overlay {
-      /*  padding: 0;*/
+        /*  padding: 0;*/
         max-height: 200px;
     }
 }
 
-.cover__overlay:before { 
+.cover__overlay:before {
     position: absolute;
     left: 0;
     top: 0;

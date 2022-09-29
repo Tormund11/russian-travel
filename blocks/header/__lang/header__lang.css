@@ -1,9 +1,9 @@
-.header__lang{
- display: flex;
- flex-direction: row;
- gap: 18px;
- justify-content: space-between;
- margin: 0 0 6px 0;
- padding: 0;
- list-style-type: none;
+.header__lang {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: space-between;
+    margin: 0 0 6px 0;
+    padding: 0;
+    list-style-type: none;
 }

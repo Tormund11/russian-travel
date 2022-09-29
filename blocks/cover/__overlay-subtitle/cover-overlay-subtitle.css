@@ -1,42 +1,44 @@
-.cover__overlay-subtitle{
-/* border: 1px solid red;*/
- text-decoration: none;
- max-width: 360px;
- max-height: 66px;
- width: auto;
- font-family: 'Inter', sans-serif;
- font-style: normal;
- font-weight: 400;
- font-size: 18px;
- line-height: 22px;
- text-align: center;
- margin: 32px auto 245px auto;
- padding: 92px 48px 0 48px;
- padding: 0;
- color: #FFFFFF;
- align-self: center;
- z-index: 2;
+.cover__overlay-subtitle {
+  text-decoration: none;
+  max-width: 360px;
+  width: auto;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 32px auto 245px auto;
+  padding: 92px 48px 0 48px;
+  padding: 0;
+  color: #FFFFFF;
+  align-self: center;
+  z-index: 2;
 }
+
 @media screen and (max-width: 1024px) {
- .cover__overlay-subtitle {
- margin-bottom: 195px;
- }}
- @media screen and (max-width: 768px) {
- .cover__overlay-subtitle {
- margin-bottom: 115px;
-}
-}
-@media screen and (max-width: 550px) {
- .cover__overlay-subtitle {
- font-size: 14px;
- line-height: 16px;
- margin-top: 16px;
+  .cover__overlay-subtitle {
+    margin-bottom: 195px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover__overlay-subtitle {
+    margin-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover__overlay-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
- .cover__overlay-subtitle {
-  max-width: 288px;
-  height: 48px;
- margin: 16px 16px 33px 16px;
- }
+  .cover__overlay-subtitle {
+    max-width: 288px;
+    margin: 16px 16px 33px 16px;
+  }
 }

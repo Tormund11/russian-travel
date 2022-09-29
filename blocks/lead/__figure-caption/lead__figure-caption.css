@@ -1,20 +1,22 @@
-.lead__figure-caption{
- text-transform: uppercase;
- margin: 8px 0 0 0;
- padding: 0;
- align-self: flex-start;
- font-family: 'Inter', sans-serif;
- font-size: 10px;
- font-weight: 400;
- line-height: 14px;
- letter-spacing: 1.5px;
- text-align: left;
+.lead__figure-caption {
+    text-transform: uppercase;
+    margin: 8px 0 0 0;
+    padding: 0;
+    align-self: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-align: left;
 }
+
 @media screen and (max-width: 768px) {
     .lead__figure-caption {
         padding-left: 24px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .lead__figure-caption {
         padding-left: 16px;
