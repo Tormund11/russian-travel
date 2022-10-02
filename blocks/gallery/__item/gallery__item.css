@@ -1,21 +1,21 @@
 .gallery__item {
-    max-width: 284px;
-    height: 213px;
-    margin: 0;
-    padding: 0;
+  max-width: 284px;
+  height: 213px;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
-    .gallery__item {
-        max-width: 300px;
-        height: 225px;
-    }
+  .gallery__item {
+    max-width: 300px;
+    height: 225px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .gallery__item {
-        max-width: 352px;
-        width: 100%;
-        height: auto;
-    }
+  .gallery__item {
+    max-width: 352px;
+    width: 100%;
+    height: auto;
+  }
 }

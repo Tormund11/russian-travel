@@ -1,4 +1,5 @@
 .cover__overlay-subtitle {
+  box-sizing: border-box;
   text-decoration: none;
   max-width: 360px;
   width: auto;
@@ -8,37 +9,25 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 32px auto 245px auto;
-  padding: 92px 48px 0 48px;
+  margin: 32px 0 0 0;
   padding: 0;
   color: #FFFFFF;
   align-self: center;
   z-index: 2;
+  min-height: 66px;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__overlay-subtitle {
-    margin-bottom: 195px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__overlay-subtitle {
-    margin-bottom: 115px;
-  }
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   .cover__overlay-subtitle {
     font-size: 14px;
     line-height: 16px;
-    margin-top: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay-subtitle {
     max-width: 288px;
-    margin: 16px 16px 33px 16px;
+    min-height: 48px;
+    margin-top: 16px;
   }
 }
