@@ -1,5 +1,6 @@
 .footer__link {
-  margin-right: 14px;
+  display: inline-block;
+  margin-right: 18px;
   color: white;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -8,6 +9,7 @@
   line-height: 18px;
   text-decoration: none;
   transition: 0.5s ease;
+  align-items: center;
 }
 
 .footer__link:last-child {
